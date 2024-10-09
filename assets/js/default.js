@@ -3,7 +3,7 @@ const path = window.location.pathname;
 const navbarHtml = `
     <nav 
         class="navbar navbar-expand-lg navbar-dark" 
-        style="width: 100%; border-bottom: 3px solid rgb(197, 26, 26);">
+        style="width: 100%; border-bottom: 3px solid rgb(197, 26, 26); padding: 0 10%;">
         <div class="container-fluid">
             
             <a class="navbar-brand ms-5" href="#">
@@ -17,7 +17,7 @@ const navbarHtml = `
     
             
             <div class="collapse navbar-collapse justify-content-end me-4" id="navbarNav">
-                <ul class="navbar-nav" style="color: #1e2b37; font-weight: bold;">
+                <ul class="navbar-nav" style="color: #1e2b37; font-weight: 500 ;">
                     <li class="nav-item">
                         <a class="nav-link ${path.includes('index') && 'active'}" href="index.html">
                             Início
@@ -32,8 +32,10 @@ const navbarHtml = `
                             aria-expanded="false"
                         >Institucional</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Diretoria Executiva</a></li>
-                            <li><a class="dropdown-item" href="#">Comissões</a></li>
+                            <li><a class="dropdown-item" href="dirExecutiva.html">Diretoria Executiva</a></li>
+                            <li><a class="dropdown-item" href="comissoes.html">Comissões</a></li>
+                            <li><a class="dropdown-item" href="club.html">Clube de Benefícios</a></li>
+                            <li><a class="dropdown-item" href="https://www.caasp.org.br/" target="_blank">CAASP</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -45,8 +47,8 @@ const navbarHtml = `
                             aria-expanded="false"
                         >Consultas</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Inscritos OAB/SP</a></li>
-                            <li><a class="dropdown-item" href="#">Honorários</a></li>
+                            <li><a class="dropdown-item" href="https://www2.oabsp.org.br/asp/consultaInscritos/consultaHome.asp" target="_blank">Consulta de Inscritos OAB/SP</a></li>
+                            <li><a class="dropdown-item" href="https://www.oabsp.org.br/servicos#modal=24-03-14-1158-tabela-de-honorarios%5b%21%5d0" target="_blank">Tabela de Honorários</a></li>
                         </ul>
                     </li>
                     <li class="nav-item me-3">
@@ -54,12 +56,12 @@ const navbarHtml = `
                     </li>
                     <li>
                         <a href="#" class="nav-item">
-                            <img style="width: 40px;" src="assets/icons/icons8-facebook.svg" alt="Facebook">
+                            <img style="width: 30px; margin-right: 20px; padding-top: 5px;" src="assets/icons/icon-facebook.svg" alt="Facebook">
                         </a>
                     </li>
                     <li>
                         <a href="#" class="nav-item ml-2">
-                            <img style="width: 40px;" src="assets/icons/icons8-instagram.svg" alt="Instagram">
+                            <img style="width: 30px; padding-top: 5px;" src="assets/icons/icon-instagram.svg" alt="Instagram">
                         </a>
                     </li>
                         
@@ -78,7 +80,7 @@ const footer = `
             <p> © 2024 OAB Jandira | Todos os direitos reservados</p>
         </div>
         <div>
-            <p style="margin: 0; text-align: center; font-weight: bold;">Desenvolvido por <a href="https://fator360.com/">Fator 360</a></p>
+            <p style="margin: 0; text-align: center; font-weight: bold; height: 28px; padding-top: 0.5em;">Desenvolvido por Fator 360</p>
         </div>
     </footer>
 `;
