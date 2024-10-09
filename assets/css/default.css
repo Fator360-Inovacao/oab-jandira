@@ -24,7 +24,11 @@ body {
     color: rgb(0, 0, 0);
 }
 .navbar .navbar-nav .nav-link:hover {
-    color: #f7c73b;
+    color: #B41318;
+}
+
+.navbar-nav .nav-link.active {
+    color: #B41318 !important
 }
 
 .location-info {
@@ -47,3 +51,7 @@ footer a {
     background-color: #1e2b37;
 }
 
+.no-link-style {
+    text-decoration: none;  /* Remove o sublinhado */
+    color: inherit;         /* Faz com que a cor do link herde a cor do texto ao redor */
+}

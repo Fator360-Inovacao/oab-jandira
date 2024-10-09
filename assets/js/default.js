@@ -1,0 +1,86 @@
+const path = window.location.pathname;
+
+const navbarHtml = `
+    <nav 
+        class="navbar navbar-expand-lg navbar-dark" 
+        style="width: 100%; border-bottom: 3px solid rgb(197, 26, 26);">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand ms-5" href="#">
+                <img src="assets/images/logo-OAB.png" alt="OAB-jandira" width="300">
+            </a>
+    
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            
+            <div class="collapse navbar-collapse justify-content-end me-4" id="navbarNav">
+                <ul class="navbar-nav" style="color: #1e2b37; font-weight: bold;">
+                    <li class="nav-item">
+                        <a class="nav-link ${path.includes('index') && 'active'}" href="index.html">
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a 
+                            class="nav-link dropdown-toggle ${path.includes('institucional') && 'active'}" 
+                            href="#"
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false"
+                        >Institucional</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Diretoria Executiva</a></li>
+                            <li><a class="dropdown-item" href="#">Comissões</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a 
+                            class="nav-link dropdown-toggle ${path.includes('consultas') && 'active'}" 
+                            href="#"
+                            role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false"
+                        >Consultas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Inscritos OAB/SP</a></li>
+                            <li><a class="dropdown-item" href="#">Honorários</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link ${path.includes('contato') && 'active'}" href="contato.html">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            <img style="width: 40px;" src="assets/icons/icons8-facebook.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item ml-2">
+                            <img style="width: 40px;" src="assets/icons/icons8-instagram.svg" alt="Instagram">
+                        </a>
+                    </li>
+                        
+                </ul>
+                                
+            </div>
+        </div>
+    </nav>
+`;
+
+document.getElementById("navbar").innerHTML = navbarHtml;
+
+const footer = `
+    <footer class="footer text-center mt-3" style="width: 100%;">
+        <div style="background-color: #cfc5c5; color: #1e2b37; font-weight: bold; height: 20px;">
+            <p> © 2024 OAB Jandira | Todos os direitos reservados</p>
+        </div>
+        <div>
+            <p style="margin: 0; text-align: center; font-weight: bold;">Desenvolvido por <a href="https://fator360.com/">Fator 360</a></p>
+        </div>
+    </footer>
+`;
+
+document.getElementById("footer").innerHTML = footer;
