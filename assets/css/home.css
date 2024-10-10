@@ -8,3 +8,13 @@
         max-height: 400px; 
     }
 }
+
+.logo-oab {
+    width: 300px
+}
+
+@media (max-width: 768px) {
+    .logo-oab {
+        width: 250px
+    }
+}

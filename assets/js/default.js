@@ -7,8 +7,8 @@ const navbarHtml = `
     >
         <div class="container-fluid">
             
-            <a class="navbar-brand ms-md-5" href="#">
-                <img src="assets/images/logo-OAB.png" alt="OAB-jandira" width="300">
+            <a class="navbar-brand ms-md-5" href="index.html">
+                <img src="assets/images/logo-OAB.png" alt="OAB-jandira" class="logo-oab">
             </a>
     
             
