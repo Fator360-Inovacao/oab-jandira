@@ -29,16 +29,34 @@ body {
 
 .navbar {
     background-color: #ffffff;
+    z-index: 1000;
 }
+
 .navbar .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
 }
+
 .navbar .navbar-nav .nav-link:hover {
     color: #B41318;
 }
 
 .navbar-nav .nav-link.active {
     color: #B41318 !important
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1); 
+}
+
+.navbar-toggler-icon {
+    /* background-color: #BEBEBE;
+    border-radius: 6px; */
+}
+
+.navbar-collapse {
+    background-color: #fff; 
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .location-info {

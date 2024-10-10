@@ -2,16 +2,25 @@ const path = window.location.pathname;
 
 const navbarHtml = `
     <nav 
-        class="navbar navbar-expand-lg navbar-dark" 
-        style="width: 100%; border-bottom: 3px solid rgb(197, 26, 26); padding: 0 10%;">
+        class="navbar navbar-expand-lg navbar-light" 
+        style="width: 100%; border-bottom: 3px solid rgb(197, 26, 26);"
+    >
         <div class="container-fluid">
             
-            <a class="navbar-brand ms-5" href="#">
+            <a class="navbar-brand ms-md-5" href="#">
                 <img src="assets/images/logo-OAB.png" alt="OAB-jandira" width="300">
             </a>
     
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+            >
                 <span class="navbar-toggler-icon"></span>
             </button>
     
@@ -56,12 +65,12 @@ const navbarHtml = `
                     </li>
                     <li>
                         <a href="#" class="nav-item">
-                            <img style="width: 30px; margin-right: 20px; padding-top: 5px;" src="assets/icons/icon-facebook.svg" alt="Facebook">
+                            <img style="width: 30px; margin-right: 20px; padding-top: 5px;" src="assets/icons/icon-Facebook.svg" alt="Facebook">
                         </a>
                     </li>
                     <li>
                         <a href="#" class="nav-item ml-2">
-                            <img style="width: 30px; padding-top: 5px;" src="assets/icons/icon-instagram.svg" alt="Instagram">
+                            <img style="width: 30px; padding-top: 5px;" src="assets/icons/icon-Instagram.svg" alt="Instagram">
                         </a>
                     </li>
                         
