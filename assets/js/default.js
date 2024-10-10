@@ -95,3 +95,13 @@ const footer = `
 `;
 
 document.getElementById("footer").innerHTML = footer;
+
+
+const acordeaos = document.querySelectorAll('.acordeao');
+
+acordeaos.forEach(acordeao => {
+    acordeao.addEventListener('click', () => {
+        const body = acordeao.querySelector('.acordeao-body');
+        body.classList.toggle('active');
+    })
+})
