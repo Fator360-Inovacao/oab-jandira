@@ -83,3 +83,13 @@ footer a {
     text-decoration: none;  /* Remove o sublinhado */
     color: inherit;         /* Faz com que a cor do link herde a cor do texto ao redor */
 }
+
+.logo-oab {
+    width: 300px
+}
+
+@media (max-width: 768px) {
+    .logo-oab {
+        width: 250px
+    }
+}
