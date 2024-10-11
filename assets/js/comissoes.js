@@ -247,7 +247,7 @@ const arrComissions = [
         ],
     },
     {
-        title: 'COMISSÃO DA AÇÃO SOCIAL INFÂNCIA E JUVENTUDE',
+        title: 'COMISSÃO DA AÇÃO SOCIAL INFANCIA E JUVENTUDE',
         presidente: 'Dra. Adreiza Farias de Oliveira',
         emailPresidente: 'adreiza@adv.oabsp.org.br',
         membrosEfetivos: [],
