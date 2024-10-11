@@ -36,7 +36,7 @@ const navbarHtml = `
                     </li>
                     <li class="nav-item dropdown">
                         <a 
-                            class="nav-link dropdown-toggle ${path.includes('institucional') && 'active'}" 
+                            class="nav-link dropdown-toggle ${path.includes('institucional') ? 'active' : ''}" 
                             href="#"
                             role="button" 
                             data-bs-toggle="dropdown" 
@@ -51,7 +51,7 @@ const navbarHtml = `
                     </li>
                     <li class="nav-item dropdown">
                         <a 
-                            class="nav-link dropdown-toggle ${path.includes('consultas') && 'active'}" 
+                            class="nav-link dropdown-toggle ${path.includes('consultas') ? 'active' : ''}" 
                             href="#"
                             role="button" 
                             data-bs-toggle="dropdown" 
@@ -63,7 +63,7 @@ const navbarHtml = `
                         </ul>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link ${path.includes('contato') && 'active'}" href="contato.html">Contato</a>
+                        <a class="nav-link ${path.includes('contato') ? 'active' : ''}" href="contato.html">Contato</a>
                     </li>
                     <li>
                         <a href="https://www.facebook.com/oab.jandira" class="nav-item">
