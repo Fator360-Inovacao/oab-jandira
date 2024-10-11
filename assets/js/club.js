@@ -1,6 +1,6 @@
 const benefits = [
     {
-        logo: '<img src="assets/icons/img-parceirosrfabricadeoculos.png" width="200px">',
+        logo: '<img src="assets/icons/img-parceirosrfabricadeoculos.png" height="60px">',
         title: 'SR Fábrica de Óculos',
         benefits: [],
         conditions: [],

@@ -7,7 +7,7 @@ const arrComissions = [
         membrosEfetivos: [
             'Dr. Giulio Henrique Garcia Fontes Gatti',
             'Dr. Ricardo Benedicto Martins',
-            'Nathalia Loures Capelo'
+            'Dra. Nathalia Loures Capelo'
         ],
     },
     {
@@ -145,10 +145,9 @@ const arrComissions = [
     },
     {
         title: 'COMISSÃO DE DIREITOS HUMANOS',
-        presidente: 'Dra. Tzvetana Inês Loureiro Tzankova',
-        emailPresidente: 'tzvetanamorais@gmail.com',
+        presidente: 'Dr. Anderson Oliveira da Silva',
+        emailPresidente: 'anderson.oliveiraadv22@gmail.com',
         instagramLink: 'https://www.instagram.com/com.direitoshumanosdejandira/',
-        vicePresidente: 'Dr. Anderson Oliveira da Silva',
         membrosEfetivos: [
             'Dra. Tatiane Cristina Camargo Ferreira'
         ],
@@ -181,7 +180,7 @@ const arrComissions = [
         membrosEfetivos: [
             'Dr. Carlos Henrique Paulino',
             'Dra. Sarah Evangelista Justiniano',
-            'Nathalia Loures Capelo'
+            'Dra. Nathalia Loures Capelo'
         ],
     },
     {
@@ -247,7 +246,7 @@ const arrComissions = [
         ],
     },
     {
-        title: 'COMISSÃO DA AÇÃO SOCIAL INFANCIA E JUVENTUDE',
+        title: 'COMISSÃO DA AÇÃO SOCIAL INFÂNCIA E JUVENTUDE',
         presidente: 'Dra. Adreiza Farias de Oliveira',
         emailPresidente: 'adreiza@adv.oabsp.org.br',
         membrosEfetivos: [],
@@ -257,7 +256,6 @@ const arrComissions = [
         presidente: 'Dr. Ricardo Benedicto Martins',
         emailPresidente: 'ricardobmartins@adv.oabsp.org.br',
         membrosEfetivos: [
-            'Dr. Kauê Teixeira Ventura Monteiro',
             'Dr. Giovani Roberto Zitelli',
             'Dra. Jherelle Aparecida Marques',
             'Dra. Lucineide de Araujo Castilho',
@@ -272,9 +270,7 @@ const arrComissions = [
     },
     {
         title: 'COMISSÃO DE TECNOLOGIA',
-        presidente: 'Dr. Kauê Teixeira Ventura Monteiro',
-        emailPresidente: 'kaueventura.adv@gmail.com',
-        vicePresidente: 'Dr. Jhonatan Rodrigues do Carmo',
+        presidente: 'Dr. Jhonatan Rodrigues do Carmo',
         membrosEfetivos: [],
     },
     {
