@@ -1,18 +1,13 @@
 const arrComissions = [
     {
-        title: 'COMISSÃO DA JOVEM ADVOCACIA',
-        presidente: 'Dra. Fernanda Scopim',
-        emailPresidente: 'fscopim@gmail.com',
-        vicePresidente: 'Dr. Anderson Oliveira da Silva',
-        instagramLink: 'https://www.instagram.com/jovem.adv.jandira/',
+        title: 'COMISSÃO DE PRERROGATIVAS',
+        presidente: 'Dra. Tatiane Cristina Camargo Ferreira',
+        emailPresidente: 'tccamargof@gmail.com',
+        vicePresidente: 'Dra. Fabiana Morais Alves',
         membrosEfetivos: [
-            'Dra. Caroline Ingrid de Lima Gregório',
-            'Dra. Daniele Aparecida dos Santos Silva',
-            'Dra. Denise Lopes dos Santos',
-            'Dr. Kauê Teixeira Ventura Monteiro',
-            'Dra. Sarah Cristina Duarte Fortis',
-            'Dra. Sara Raiane de Souza Alves Barbosa',
-            'Dra. Priscila da Silva',
+            'Dr. Giulio Henrique Garcia Fontes Gatti',
+            'Dr. Ricardo Benedicto Martins',
+            'Nathalia Loures Capelo'
         ],
     },
     {
@@ -42,53 +37,6 @@ const arrComissions = [
         ],
     },
     {
-        title: 'COMISSÃO DE DEFESA DOS ANIMAIS',
-        presidente: 'Dra. Tatiane Cristina Camargo Ferreira',
-        emailPresidente: 'tccamargof@gmail.com',
-        vicePresidente: 'Dra. Michelly Alves Bezerra de Oliveira',
-        instagramLink: 'https://www.instagram.com/comissaodefesadosanimais/',
-        membrosEfetivos: [
-            'Dr. Carlos Henrique Paulino',
-            'Dra. Sarah Evangelista Justiniano',
-            'Nathalia Loures Capelo'
-        ],
-    },
-    {
-        title: 'COMISSÃO DA OAB VAI À ESCOLA',
-        presidente: 'Dr. Anderson Ferreira',
-        emailPresidente: 'wanderreira@gmail.com',
-        vicePresidente: 'Dra. Denise Lopes dos Santos',
-        membrosEfetivos: [
-            'Dr. Adalberto Alexandre Santos',
-            'Dr. Edemar dos Santos Silva Filho',
-            'Dra. Helena Cristina Caldeira Trindade Estevão'
-        ],
-    },
-    {
-        title: 'COMISSÃO DE CULTURA E EVENTOS',
-        presidente: 'Dra. Carolina Gonçalves',
-        emailPresidente: 'carol2609@gmail.com',
-        membrosEfetivos: [],
-    },
-    {
-        title: 'COMISSÃO DE ÉTICA E DISCIPLINA',
-        presidente: 'Dra. Carolina Gonçalves',
-        emailPresidente: 'carol2609@gmail.com',
-        vicePresidente: 'Dr. Ricardo Benedicto Martins',
-        membrosEfetivos: [],
-    },
-    {
-        title: 'COMISSÃO DE DIREITO PREVIDENCIÁRIO',
-        presidente: 'Dr. Samuel Lima da Silva',
-        emailPresidente: 'reisamuellima@gmail.com',
-        vicePresidente: 'Dra. Michelly Alves Bezerra de Oliveira',
-        membrosEfetivos: [
-            'Dra. Sarah Cristina Duarte Fortis',
-            'Dra. Magna de Lima Galvão',
-            'Dra. Iolanda Santana de França Lima'
-        ],
-    },
-    {
         title: 'COMISSÃO DE DIREITO EMPRESARIAL',
         presidente: 'Dr. Heraldo da Silva Azevedo Junior',
         emailPresidente: 'heraldodsaj@gmail.com',
@@ -99,6 +47,89 @@ const arrComissions = [
             'Dr. Alexandre Alves Neto',
             'Dr. Jhonatan Rodrigues do Carmo'
         ],
+    },
+    {
+        title: 'COMISSÃO DA ASSISTÊNCIA JUDICIÁRIA',
+        presidente: 'Dr. Renato Pereira Gomes',
+        emailPresidente: 'renatogomes4@gmail.com',
+        vicePresidente: 'Dr. Adriano Borges Nogueira',
+        membrosEfetivos: [],
+    },
+    {
+        title: 'COMISSÃO DE ESPORTE SAÚDE E LAZER',
+        presidente: 'Dra. Cristiane Santos de Jesus',
+        emailPresidente: 'cris_juris@hotmail.com',
+        instagramLink: 'https://www.instagram.com/comissao_de_esportes_oabjandir/',
+        membrosEfetivos: [
+            'Dr. Anderson Oliveira da Silva',
+            'Dra. Jaqueline de Souza Silva',
+            'Dr. Samuel Lima da Silva',
+            'Dr. William dos Santos Ribeiro',
+            'Dra. Jessica de Lima Santos'
+        ],
+    },
+    {
+        title: 'COMISSÃO DE REGULARIZAÇÃO FUNDIÁRIA',
+        presidente: 'Dra. Heloiza Galvão',
+        emailPresidente: 'heloizagalvao0820@gmail.com',
+        vicePresidente: 'Dra. Luciana de Araújo Blum',
+        membrosEfetivos: [
+            'Dra. Priscila Aparecida Foger',
+            'Dr. Bruno Aparecido da Silva'
+        ],
+    },
+    {
+        title: 'COMISSÃO CRIMES CIBERNÉTICOS E SEGURANÇA DA INFORMAÇÃO',
+        presidente: 'Dr. Alexandre Alves Neto',
+        emailPresidente: 'alexandrealvesneto@gmail.com',
+        instagramLink: 'https://www.instagram.com/oabcyber/',
+        vicePresidente: 'Dr. Heraldo da Silva Azevedo Junior',
+        membrosEfetivos: [
+            'Dra. Lilian Meire Cambuim Alves'
+        ],
+    },
+    {
+        title: 'COMISSÃO DE ORATÓRIA E CERIMONIAL',
+        presidente: 'Dra. Marcela de Paula Minjoni',
+        emailPresidente: 'marcelapaula@adv.oabsp.org.br',
+        membrosEfetivos: [
+            'Dr. Giovani Roberto Zitelli'
+        ],
+    },
+    {
+        title: 'COMISSÃO PENAL E DIREITO PENAL',
+        presidente: 'Dr. Valcir Moura Leal',
+        emailPresidente: 'valcirmoura@adv.oabsp.org.br',
+        vicePresidente: 'Dra. Michelly Alves Bezerra de Oliveira',
+        membrosEfetivos: [
+            'Dra. Caroline Ingrid de Lima Gregório',
+            'Dr. Anderson Oliveira da Silva',
+            'Dra. Sarah Cristina Duarte Fortis',
+            'Dra. Tatiane Cristina Camargo Ferreira',
+            'Dra. Priscila da Silva'
+        ],
+    },
+    {
+        title: 'COMISSÃO DA JOVEM ADVOCACIA',
+        presidente: 'Dra. Fernanda Scopim',
+        emailPresidente: 'fscopim@gmail.com',
+        vicePresidente: 'Dr. Anderson Oliveira da Silva',
+        instagramLink: 'https://www.instagram.com/jovem.adv.jandira/',
+        membrosEfetivos: [
+            'Dra. Caroline Ingrid de Lima Gregório',
+            'Dra. Daniele Aparecida dos Santos Silva',
+            'Dra. Denise Lopes dos Santos',
+            'Dr. Kauê Teixeira Ventura Monteiro',
+            'Dra. Sarah Cristina Duarte Fortis',
+            'Dra. Sara Raiane de Souza Alves Barbosa',
+            'Dra. Priscila da Silva',
+        ],
+    },
+    {
+        title: 'COMISSÃO DE CULTURA E EVENTOS',
+        presidente: 'Dra. Carolina Gonçalves',
+        emailPresidente: 'carol2609@gmail.com',
+        membrosEfetivos: [],
     },
     {
         title: 'COMISSÃO DE DIREITO DO TRABALHO',
@@ -123,16 +154,69 @@ const arrComissions = [
         ],
     },
     {
-        title: 'COMISSÃO PENAL E DIREITO PENAL',
-        presidente: 'Dr. Valcir Moura Leal',
-        emailPresidente: 'valcirmoura@adv.oabsp.org.br',
+        title: 'COMISSÃO DE IGUALDADE RACIAL',
+        presidente: 'Dra. Barbara Jaqueline da Fonseca Valério',
+        emailPresidente: 'babijaqueline@hotmail.com',
+        instagramLink: 'https://www.instagram.com/cirjandira/',
+        vicePresidente: 'Dra. Sarah Evangelista Justiniano',
+        membrosEfetivos: [
+            'Dra. Denise Lopes dos Santos'
+        ],
+    },
+    {
+        title: 'COMISSÃO DE DIREITO DA PESSOA IDOSA',
+        presidente: 'Dra. Luciane Sandra Cambuim',
+        emailPresidente: 'dralucianescambuim@gmail.com',
+        instagramLink: 'https://www.instagram.com/cdpi_oabjandira/',
+        membrosEfetivos: [
+            'Dra. Lilian Meire Cambuim Alves'
+        ],
+    },
+    {
+        title: 'COMISSÃO DE DIREITO IMOBILIÁRIO',
+        presidente: 'Dr. Kauê Teixeira Ventura Monteiro',
+        emailPresidente: 'kaueventura.adv@gmail.com',
+        membrosEfetivos: [],
+    },
+    {
+        title: 'COMISSÃO DE DEFESA DOS ANIMAIS',
+        presidente: 'Dra. Tatiane Cristina Camargo Ferreira',
+        emailPresidente: 'tccamargof@gmail.com',
+        vicePresidente: 'Dra. Michelly Alves Bezerra de Oliveira',
+        instagramLink: 'https://www.instagram.com/comissaodefesadosanimais/',
+        membrosEfetivos: [
+            'Dr. Carlos Henrique Paulino',
+            'Dra. Sarah Evangelista Justiniano',
+            'Nathalia Loures Capelo'
+        ],
+    },
+    {
+        title: 'COMISSÃO DA OAB VAI À ESCOLA',
+        presidente: 'Dr. Anderson Ferreira',
+        emailPresidente: 'wanderreira@gmail.com',
+        vicePresidente: 'Dra. Denise Lopes dos Santos',
+        membrosEfetivos: [
+            'Dr. Adalberto Alexandre Santos',
+            'Dr. Edemar dos Santos Silva Filho',
+            'Dra. Helena Cristina Caldeira Trindade Estevão'
+        ],
+    },
+    {
+        title: 'COMISSÃO DE ÉTICA E DISCIPLINA',
+        presidente: 'Dra. Carolina Gonçalves',
+        emailPresidente: 'carol2609@gmail.com',
+        vicePresidente: 'Dr. Ricardo Benedicto Martins',
+        membrosEfetivos: [],
+    },
+    {
+        title: 'COMISSÃO DE DIREITO PREVIDENCIÁRIO',
+        presidente: 'Dr. Samuel Lima da Silva',
+        emailPresidente: 'reisamuellima@gmail.com',
         vicePresidente: 'Dra. Michelly Alves Bezerra de Oliveira',
         membrosEfetivos: [
-            'Dra. Caroline Ingrid de Lima Gregório',
-            'Dr. Anderson Oliveira da Silva',
             'Dra. Sarah Cristina Duarte Fortis',
-            'Dra. Tatiane Cristina Camargo Ferreira',
-            'Dra. Priscila da Silva'
+            'Dra. Magna de Lima Galvão',
+            'Dra. Iolanda Santana de França Lima'
         ],
     },
     {
@@ -175,21 +259,6 @@ const arrComissions = [
         membrosEfetivos: [],
     },
     {
-        title: 'COMISSÃO DA ASSISTÊNCIA JUDICIÁRIA',
-        presidente: 'Dr. Renato Pereira Gomes',
-        emailPresidente: 'renatogomes4@gmail.com',
-        vicePresidente: 'Dr. Adriano Borges Nogueira',
-        membrosEfetivos: [],
-    },
-    {
-        title: 'COMISSÃO DE ORATÓRIA E CERIMONIAL',
-        presidente: 'Dra. Marcela de Paula Minjoni',
-        emailPresidente: 'marcelapaula@adv.oabsp.org.br',
-        membrosEfetivos: [
-            'Dr. Giovani Roberto Zitelli'
-        ],
-    },
-    {
         title: 'COMISSÃO DE DIREITO CIVIL',
         presidente: 'Dr. Ricardo Benedicto Martins',
         emailPresidente: 'ricardobmartins@adv.oabsp.org.br',
@@ -215,70 +284,11 @@ const arrComissions = [
         membrosEfetivos: [],
     },
     {
-        title: 'COMISSÃO DE PRERROGATIVAS',
-        presidente: 'Dra. Tatiane Cristina Camargo Ferreira',
-        emailPresidente: 'tccamargof@gmail.com',
-        vicePresidente: 'Dra. Fabiana Morais Alves',
-        membrosEfetivos: [
-            'Dr. Giulio Henrique Garcia Fontes Gatti',
-            'Dr. Ricardo Benedicto Martins',
-            'Nathalia Loures Capelo'
-        ],
-    },
-    {
         title: 'COMISSÃO DE HELPDESK',
         presidente: 'Dra. Elaine Carvalho de Aquino',
         emailPresidente: 'draelaineaquino@gmail.com',
         vicePresidente: 'Dr. Renato Pereira Gomes',
         membrosEfetivos: [],
-    },
-    {
-        title: 'COMISSÃO DE ESPORTE SAÚDE E LAZER',
-        presidente: 'Dra. Cristiane Santos de Jesus',
-        emailPresidente: 'cris_juris@hotmail.com',
-        instagramLink: 'https://www.instagram.com/comissao_de_esportes_oabjandir/',
-        membrosEfetivos: [
-            'Dr. Anderson Oliveira da Silva',
-            'Dra. Jaqueline de Souza Silva',
-            'Dr. Samuel Lima da Silva',
-            'Dr. William dos Santos Ribeiro',
-            'Dra. Jessica de Lima Santos'
-        ],
-    },
-    {
-        title: 'COMISSÃO DE IGUALDADE RACIAL',
-        presidente: 'Dra. Barbara Jaqueline da Fonseca Valério',
-        emailPresidente: 'babijaqueline@hotmail.com',
-        instagramLink: 'https://www.instagram.com/cirjandira/',
-        vicePresidente: 'Dra. Sarah Evangelista Justiniano',
-        membrosEfetivos: [
-            'Dra. Denise Lopes dos Santos'
-        ],
-    },
-    {
-        title: 'COMISSÃO DE DIREITO DA PESSOA IDOSA',
-        presidente: 'Dra. Luciane Sandra Cambuim',
-        emailPresidente: 'dralucianescambuim@gmail.com',
-        instagramLink: 'https://www.instagram.com/cdpi_oabjandira/',
-        membrosEfetivos: [
-            'Dra. Lilian Meire Cambuim Alves'
-        ],
-    },
-    {
-        title: 'COMISSÃO DE DIREITO IMOBILIÁRIO',
-        presidente: 'Dr. Kauê Teixeira Ventura Monteiro',
-        emailPresidente: 'kaueventura.adv@gmail.com',
-        membrosEfetivos: [],
-    },
-    {
-        title: 'COMISSÃO DE REGULARIZAÇÃO FUNDIÁRIA',
-        presidente: 'Dra. Heloiza Galvão',
-        emailPresidente: 'heloizagalvao0820@gmail.com',
-        vicePresidente: 'Dra. Luciana de Araújo Blum',
-        membrosEfetivos: [
-            'Dra. Priscila Aparecida Foger',
-            'Dr. Bruno Aparecido da Silva'
-        ],
     },
     {
         title: 'COMISSÃO DE DIREITO DE FAMÍLIA',
@@ -290,21 +300,11 @@ const arrComissions = [
         ],
     },
     {
-        title: 'COMISSÃO CRIMES CIBERNÉTICOS E SEGURANÇA DA INFORMAÇÃO',
-        presidente: 'Dr. Alexandre Alves Neto',
-        emailPresidente: 'alexandrealvesneto@gmail.com',
-        instagramLink: 'https://www.instagram.com/oabcyber/',
-        vicePresidente: 'Dr. Heraldo da Silva Azevedo Junior',
-        membrosEfetivos: [
-            'Dra. Lilian Meire Cambuim Alves'
-        ],
-    },
-    {
         title: 'COMISSÃO DE DIREITO DA PESSOA NEURODIVERGENTE',
         presidente: 'Dra. Tatiane Cristina Camargo Ferreira',
         emailPresidente: 'tccamargof@gmail.com',
         membrosEfetivos: [],
-    }  
+    }
 ];
 
 const templateAccordion = ({
@@ -314,7 +314,7 @@ const templateAccordion = ({
     vicePresidente,
     instagramLink,
     membrosEfetivos
-}) => { 
+}) => {
     return `
         <div class="accordion mx-auto">
             <button class="accordion-header" onclick="accordionClick(this)">
@@ -332,31 +332,28 @@ const templateAccordion = ({
                     E-mail: ${emailPresidente || ''}
                 </p>
 
-                ${
-                    vicePresidente 
-                    ? `
+                ${vicePresidente
+            ? `
                         <span class="accordion-body-title2">Vice Presidente</span>
                         
                         <p>${vicePresidente || ''}</p>
                     `
-                    : ''
-                }
+            : ''
+        }
                 
-                ${
-                    instagramLink
-                    ? `
+                ${instagramLink
+            ? `
                         <span class="accordion-body-title2">Redes Sociais</span><br>
                         
                         <a href="${instagramLink || ''}" target="_blank">
                             <img src="assets/icons/icon-Instagram.svg" width="20px">
                         </a>
                     `
-                    : ''
-                }
+            : ''
+        }
                 
-                ${
-                    (membrosEfetivos && membrosEfetivos.length > 0)
-                    ? `
+                ${(membrosEfetivos && membrosEfetivos.length > 0)
+            ? `
                         <div class="mt-3">
                             <span class="accordion-body-title2">Membros Efetivos</span>
                         </div>
@@ -366,8 +363,8 @@ const templateAccordion = ({
                             ${membrosEfetivos.join('<br>')}
                         </p>
                     `
-                    : ''
-                }
+            : ''
+        }
             </div>
         </div>
     `;
@@ -376,4 +373,4 @@ const templateAccordion = ({
 document.getElementById('comissoes').innerHTML = arrComissions
     .map(obj => templateAccordion(obj))
     .join('\n')
-;
+    ;
