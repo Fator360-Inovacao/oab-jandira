@@ -66,12 +66,12 @@ const navbarHtml = `
                         <a class="nav-link ${path.includes('contato') && 'active'}" href="contato.html">Contato</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-item">
+                        <a href="https://www.facebook.com/oab.jandira" class="nav-item">
                             <img style="width: 30px; margin-right: 20px; padding-top: 5px;" src="assets/icons/icon-Facebook.svg" alt="Facebook">
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-item ml-2">
+                        <a href="https://www.instagram.com/oab.jandira/" class="nav-item ml-2">
                             <img style="width: 30px; padding-top: 5px;" src="assets/icons/icon-Instagram.svg" alt="Instagram">
                         </a>
                     </li>
@@ -118,14 +118,12 @@ document.getElementById("footer").innerHTML = footer;
 
 
 // ACCORDION
-const acordeaos = document.querySelectorAll('.acordeao');
 
-acordeaos.forEach(acordeao => {
-    acordeao.addEventListener('click', () => {
-        const body = acordeao.querySelector('.acordeao-body');
-        body.classList.toggle('active');
-    })
-});
+const accordionClick = (element) =>{
+    const body = element.parentElement.querySelector('.accordion-body');
+    body.classList.toggle('active');
+    body.classList.toggle('mt-3');
+}
 
 // ACESSO RÁPIDO
 const fastAccess = `
@@ -191,7 +189,7 @@ const fastAccess = `
                 </div>
 
                 <div class="col-md-6 mt-4 mt-md-2 align-content-center">
-                    <a href="#" target="_blank" class="no-link-style">
+                    <a href="club.html" class="no-link-style">
 
                         <div class="d-flex flex-row align-items-center icons-fast-access">
 

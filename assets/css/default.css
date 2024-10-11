@@ -89,16 +89,16 @@ footer a {
 
 /* CSS do Acordeão */
 
-.acordeao {
+.accordion {
     width: 80%;
     background-color: #fff;
     border-radius: 8px;
     padding: 12px;
-    cursor: pointer;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
 }
 
-.acordeao-header {
+.accordion-header {
     width: 100%;
     border: none;
     background-color: transparent;
@@ -110,14 +110,14 @@ footer a {
     cursor: pointer;
 }
 
-.acordeao-header span {
+.accordion-header span {
     max-width: 100%;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.acordeao-body {
+.accordion-body {
     text-align: center;
     color: #192933;
     font-size: 14px;
@@ -125,24 +125,25 @@ footer a {
     height: 0;
     overflow: hidden;
     transition: opacity .3s;
+    padding: 0 !important;
 }
 
-.acordeao-body.active {
+.accordion-body.active {
     height: 100%;
     opacity: 1;
-    padding: 5px 0px;
-    padding: 50px 0;
+    /* padding: 5px 0px;
+    padding: 50px 0; */
 }
 
 .arrow {
     transition: transform .2s linear;
 }
 
-.acordeao:has(.active) .arrow {
+.accordion:has(.active) .arrow {
     transform: rotate(180deg);
 }
 
-.acordeao-body-title {
+.accordion-body-title {
     background-color: #3739FE;
     color: #fff;
     padding: 2px 40px;
@@ -150,7 +151,7 @@ footer a {
     font-weight: bold;
 }
 
-.acordeao-body-title2 {
+.accordion-body-title2 {
     color: #3739FE;
     font-weight: bold;
 }
