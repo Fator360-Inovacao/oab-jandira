@@ -30,7 +30,7 @@ const navbarHtml = `
             <div class="collapse navbar-collapse justify-content-end me-4" id="navbarNav">
                 <ul class="navbar-nav" style="color: #1e2b37; font-weight: 500 ;">
                     <li class="nav-item">
-                        <a class="nav-link ${path.includes('index') && 'active'}" href="index.html">
+                        <a class="nav-link ${(path.includes('index') || path == '/') ? 'active' : ''}" href="index.html">
                             Início
                         </a>
                     </li>
