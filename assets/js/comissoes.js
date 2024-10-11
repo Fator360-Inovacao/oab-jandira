@@ -173,12 +173,6 @@ const arrComissions = [
         ],
     },
     {
-        title: 'COMISSÃO DE DIREITO IMOBILIÁRIO',
-        presidente: 'Dr. Kauê Teixeira Ventura Monteiro',
-        emailPresidente: 'kaueventura.adv@gmail.com',
-        membrosEfetivos: [],
-    },
-    {
         title: 'COMISSÃO DE DEFESA DOS ANIMAIS',
         presidente: 'Dra. Tatiane Cristina Camargo Ferreira',
         emailPresidente: 'tccamargof@gmail.com',
@@ -253,7 +247,7 @@ const arrComissions = [
         ],
     },
     {
-        title: 'COMISSÃO DA AÇÃO SOCIAL INF NCIA E JUVENTUDE',
+        title: 'COMISSÃO DA AÇÃO SOCIAL INFÂNCIA E JUVENTUDE',
         presidente: 'Dra. Adreiza Farias de Oliveira',
         emailPresidente: 'adreiza@adv.oabsp.org.br',
         membrosEfetivos: [],

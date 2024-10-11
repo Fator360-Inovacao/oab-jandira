@@ -66,7 +66,7 @@ const navbarHtml = `
                         <a class="nav-link ${path.includes('contato') ? 'active' : ''}" href="contato.html">Contato</a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/oab.jandira" class="nav-item">
+                        <a href="https://www.facebook.com/oabsaopaulo/?locale=pt_BR" class="nav-item">
                             <img style="width: 30px; margin-right: 20px; padding-top: 5px;" src="assets/icons/icon-Facebook.svg" alt="Facebook">
                         </a>
                     </li>
@@ -105,7 +105,7 @@ document.getElementById("header").innerHTML = header;
 
 const footer = `
     <footer class="footer text-center mt-3" style="width: 100%;">
-        <div style="background-color: #cfc5c5; color: #1e2b37; font-weight: bold; height: 20px;">
+        <div style="background-color: #DCDCDC; color: #1e2b37; font-weight: bold; height: 20px;">
             <p> © 2024 OAB Jandira | Todos os direitos reservados</p>
         </div>
         <div>
