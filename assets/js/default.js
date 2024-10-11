@@ -66,12 +66,12 @@ const navbarHtml = `
                         <a class="nav-link ${path.includes('contato') ? 'active' : ''}" href="contato.html">Contato</a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/oabsaopaulo/?locale=pt_BR" class="nav-item">
+                        <a href="https://www.facebook.com/oabsaopaulo/?locale=pt_BR" class="nav-item" target="_blank">
                             <img style="width: 30px; margin-right: 20px; padding-top: 5px;" src="assets/icons/icon-Facebook.svg" alt="Facebook">
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/oab.jandira/" class="nav-item ml-2">
+                        <a href="https://www.instagram.com/oab.jandira/" class="nav-item ml-2" target="_black">
                             <img style="width: 30px; padding-top: 5px;" src="assets/icons/icon-Instagram.svg" alt="Instagram">
                         </a>
                     </li>
