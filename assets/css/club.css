@@ -1,0 +1,10 @@
+#title-club {
+    font-size: 1.5rem;
+    color: #192933;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.title-club {
+    flex: content;
+}
