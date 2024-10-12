@@ -56,7 +56,7 @@ const benefits = [
     {
         logo: '<img src="assets/images/club/basebytelogo2.png " height="60px">',
         title: 'BaseByte - Agência de Marketing Jurídico',
-        benefits: ['Consultoria Gratuita ', '10% de desconto em serviços de tecnologia e design.'],
+        benefits: ['10% de desconto em serviços de tecnologia e design.'],
         conditions: 'Agende no <a href="https://wa.me/5511937250894" class="link-basebyte" target="_blank">WhatsApp: (11) 93725-0894</a>',
         adress: '<a href="https://www.basebyte.com.br" class="link-basebyte" target="_blank">www.basebyte.com.br</a>',
         instagramLink: 'https://www.instagram.com/basebyte.br/',
