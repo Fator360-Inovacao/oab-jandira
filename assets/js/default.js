@@ -122,7 +122,7 @@ document.getElementById("footer").innerHTML = footer;
 const accordionClick = (element) =>{
     const body = element.parentElement.querySelector('.accordion-body');
     body.classList.toggle('active');
-    body.classList.toggle('mt-3');
+    body.classList.toggle('mt-0');
 }
 
 // ACESSO RÁPIDO

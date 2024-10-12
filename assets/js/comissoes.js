@@ -51,7 +51,7 @@ const arrComissions = [
     {
         title: 'COMISSÃO DA ASSISTÊNCIA JUDICIÁRIA',
         presidente: 'Dr. Renato Pereira Gomes',
-        emailPresidente: 'renatogomes4@gmail.com',
+        emailPresidente: 'renato.gomes@adv.oabsp.org.br',
         vicePresidente: 'Dr. Adriano Borges Nogueira',
         membrosEfetivos: [],
     },
@@ -315,7 +315,7 @@ const templateAccordion = ({
             </button>
 
             <div class="accordion-body">
-                <span class="accordion-body-title">Presidente</span>
+                <p class="accordion-body-title">Presidente</p>
                 <p class="mt-1">
                     ${presidente || ''}
                     <br>
