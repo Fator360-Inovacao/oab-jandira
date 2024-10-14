@@ -43,7 +43,7 @@ const navbarHtml = `
                             aria-expanded="false"
                         >Institucional</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="dirExecutiva.html">Diretoria Executiva</a></li>
+                            <li><a class="dropdown-item" href="direcao.html">Diretoria Executiva</a></li>
                             <li><a class="dropdown-item" href="comissoes.html">Comissões</a></li>
                             <li><a class="dropdown-item" href="club.html">Clube de Benefícios</a></li>
                             <li><a class="dropdown-item" href="https://www.caasp.org.br/" target="_blank">CAASP</a></li>
