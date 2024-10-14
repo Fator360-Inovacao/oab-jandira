@@ -192,43 +192,41 @@ const templateAccordion = ({
 }) => {
     return `
         <div class="d-flex justify-content-center">
-        <div class="accordion">
-            <button class="accordion-header" onclick="accordionClick(this)">
-            <div class="club-title-accordion"> 
-                <span class="title-club">
-                    ${logo || ''}
-                </span>
-                <p class="club-body-title1">${title || ''}</p>
-                </div>
-                             
-                <i class="fa-solid fa-chevron-down arrow"></i>
-                
-            </button>
-             <div class="accordion-body">
-                <p class="mt-1">
-                    <p class="club-body-title2">Benefícios</p>
+            <div class="accordion">
+                <button class="accordion-header" onclick="accordionClick(this)">
+                    <div class="club-title-accordion"> 
+                        <span class="title-club">
+                            ${logo || ''}
+                        </span>
+                        <p class="club-body-title1">${title || ''}</p>
+                    </div>
+                                    
+                    <i class="fa-solid fa-chevron-down arrow"></i>
                     
-                    ${benefits.join('<br>') || ''}
-                    <br>
-                    <p class="club-body-title2">Condições</p>
-                    
-                    ${conditions || ''}
-                    <br>
-                    <p class="club-body-title2">Endereço</p>
-                    
-                    ${adress || ''}
-                    <br>
-                    <p class="club-body-title2">Redes Sociais</p>
-                    
-                    <a href="${instagramLink || ''}" target="_blank">
+                </button>
+                <div class="accordion-body">
+                    <p class="mt-1">
+                        <p class="club-body-title2">Benefícios</p>
+                        
+                        ${benefits.join('<br>') || ''}
+                        <br>
+                        <p class="club-body-title2">Condições</p>
+                        
+                        ${conditions || ''}
+                        <br>
+                        <p class="club-body-title2">Endereço</p>
+                        
+                        ${adress || ''}
+                        <br>
+                        <p class="club-body-title2">Redes Sociais</p>
+                        
+                        <a href="${instagramLink || ''}" target="_blank">
                             <img src="assets/icons/icon-Instagram.svg" width="20px">
                         </a>
-                </p>
-                </div>
-
-           
-                </div>
-                </div>
+                    </p>
+                </div>    
+            </div>
+        </div>
     `;
 }
 
