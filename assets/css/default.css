@@ -149,9 +149,15 @@ footer a {
     background-color: #3739FE;
     width: 20%;
     color: #fff;
-    padding: 2px 40px;
     border-radius: 12px;
     font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .accordion-body-title{
+        width: 35%;
+    }
 }
 
 .accordion-body-title2 {
