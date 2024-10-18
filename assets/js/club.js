@@ -67,7 +67,7 @@ const benefits = [
         title: 'Fórmula Soluções Contábeis',
         benefits: ['10% de desconto em abertura de empresas.'],
         conditions: 'Agendar consulta em <a class="link" href="https://wa.me/5511985191951?text=Ol%C3%A1%2C%20venho%20do%20site%20da%20OAB%20Jandira%20e%20queria%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os." target="_blank">(11) 98519-1951</a>',
-        adress: '<a href="https://www.formulascontabeis.com" target="_blank" class="link">www.formulascontabeis.com</a>',
+        adress: '<a href="https://www.formulascontabilidade.com" target="_blank" class="link">www.formulascontabeis.com</a>',
         instagramLink: 'https://www.instagram.com/formulascontabilidade',
     },
     {
