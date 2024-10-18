@@ -109,7 +109,7 @@ const footer = `
             <p> © 2024 OAB Jandira | Todos os direitos reservados</p>
         </div>
         <div>
-            <p style="margin: 0; text-align: center; font-weight: bold; height: 28px; padding-top: 0.5em;">Desenvolvido por Fator 360</p>
+            <p style="margin: 0; text-align: center; font-weight: bold; height: 28px; padding-top: 0.5em;">Desenvolvido por Fator 360 - Inovação Empresarial Ltda.</p>
         </div>
     </footer>
 `;
