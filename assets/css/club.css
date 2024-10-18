@@ -8,3 +8,29 @@
 .title-club {
     flex: content;
 }
+
+.club-title-accordion {
+    width: 100%;
+}
+
+.club-body-title1 {
+    color:#192933;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.club-body-title2 {
+    color: #3739FE;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.link {
+    color:#192933;
+    font-weight: bold;
+    text-decoration: none;
+}
