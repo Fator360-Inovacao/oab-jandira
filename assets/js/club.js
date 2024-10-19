@@ -63,7 +63,7 @@ const benefits = [
 
     },
     {
-        logo: 'assets/images/club/formula-logo-h.svg',
+        logo: 'assets/images/club/formula-logo.svg',
         title: 'Fórmula Soluções Contábeis',
         benefits: ['10% de desconto em abertura de empresas.'],
         conditions: 'Agendar consulta em <a class="link" href="https://wa.me/5511985191951?text=Ol%C3%A1%2C%20venho%20do%20site%20da%20OAB%20Jandira%20e%20queria%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os." target="_blank">(11) 98519-1951</a>',
@@ -71,7 +71,7 @@ const benefits = [
         instagramLink: 'https://www.instagram.com/formulascontabilidade',
     },
     {
-        logo: 'assets/images/club/tml-logo-h.svg',
+        logo: 'assets/images/club/tml-codes-logo.svg',
         title: 'TML Codes Desenvolvimento de Software',
         benefits: ['10% de desconto em projetos de tecnologia - Software e Infraestrutura em Nuvem.'],
         conditions: 'Solicite um orçamento em <a class="link" href="https://wa.me/5511984728948?text=Ol%C3%A1%21%20Venho%20do%20site%20da%20OAB%20Jandira%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank">(11) 98472-8948</a>',
