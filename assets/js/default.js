@@ -91,8 +91,8 @@ const header = `
     <div class="header">
         <marquee scrollamount="1" scrolldelay="20" truespeed="20">
             <a href="https://www2.oabsp.org.br/asp/dotnet/LoginSite/LoginMain.aspx" class="no-link-style" target="_blank">
-                <p style="padding-top: 0.5em;">Atualize seus dados cadastrais e participe das <label
-                        style="font-weight: bold;"> Eleições Online</label> da <label style="font-weight: bold;">OAB SP</label>
+                <p style="padding-top: 0.5em;">Fale com a <label
+                        style="font-weight: bold;"> OAB Jandira</label> Tel.: <label style="font-weight: bold;">(11) 4789-0979</label>
                 </p>
             </a>
         </marquee>
