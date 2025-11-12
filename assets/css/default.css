@@ -12,7 +12,7 @@ body {
 .header{
     height: 33px;
     font-size: 0.8em;
-    background-color: #1e2b37;
+    background-color: #3739FE;
     color: #ffffff;
     text-align: center;
     justify-content: center;   
@@ -26,34 +26,71 @@ body {
 
 .main-content {
     flex: 1;
-    background-color: #DCDCDC;
 }
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #002E44;
     z-index: 1000;
 }
 
 .navbar .navbar-nav .nav-link {
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    color: #B41318;
+    color: #ff3d44 !important;
 }
 
 .navbar-nav .nav-link.active {
-    color: #B41318 !important;
+    color: #ff161e !important;
 }
 
 .navbar-dark .navbar-toggler {
-    border-color: rgba(255, 255, 255, 0.1); 
+    border-color: #fff; 
 }
 
 .navbar-collapse {
-    background-color: #fff; 
+    background-color: #002E44; 
     padding-left: 10px;
     padding-bottom: 10px;
+}
+
+.navbar-collapse svg {
+        padding-top: 10px;
+    }
+
+.navbar .nav-link .svg {
+    fill: #fff !; 
+}
+
+@media (max-width: 768px) {
+    .navbar .navbar-toggler {
+        background-color: #fff !important;
+    }
+    .navbar-collapse {
+        background-color: #fff;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .navbar .navbar-nav .nav-link {
+        color: #002E44;
+    }
+    .navbar-collapse>img {
+        color: #002E44;
+    }
+    .navbar-collapse .navbar-svg {
+        fill: #002E44 !important;
+    }
+    .navbar-collapse svg {
+        padding-top: 5px;
+    }
+}
+
+.carousel-img {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    max-height: 500px;
 }
 
 .location-info {
