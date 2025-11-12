@@ -93,6 +93,14 @@ body {
     max-height: 500px;
 }
 
+@media (max-width: 768px) {
+    .carousel-img {
+        width: 90%;
+        max-height: 500px;
+    }
+    
+}
+
 .location-info {
     background-color: #DCDCDC;
     text-align: center;    
